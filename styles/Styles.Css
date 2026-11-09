@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 140px;
+}
+
+.navegacion {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #777;
+}
+
+.idiomas {
+    display: flex;
+    gap: 8px;
+}
+
+.idiomas a {
+    background-color: #888;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}

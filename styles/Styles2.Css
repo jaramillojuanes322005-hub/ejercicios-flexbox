@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-vertical {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.menu-vertical li {
+    background-color: #263746;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.menu-vertical a {
+    color: white;
+    text-decoration: none;
+}
